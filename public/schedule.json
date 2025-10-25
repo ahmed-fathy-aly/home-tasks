@@ -1,0 +1,453 @@
+{
+  "shortest_repeating_period_weeks": 12,
+  "daily_tasks": [
+    { "name": "Make bed", "location": "Bedroom", "how_often": "Daily", "minutes": 2 },
+    { "name": "Wipe kitchen counters & sink", "location": "Kitchen", "how_often": "Daily", "minutes": 3 },
+    { "name": "Load/Run dishwasher", "location": "Kitchen", "how_often": "Daily", "minutes": 3 },
+    { "name": "5-Minute clutter pickup", "location": "Living Room / Hallway", "how_often": "Daily", "minutes": 5 }
+  ],
+  "twelve_week_schedule": {
+    "week_1": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Dust Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Dust Living Room", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 }
+      ]
+    },
+    "week_2": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Wipe Bedroom Baseboards", "location": "Bedroom", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Wipe Living Room Baseboards", "location": "Living Room", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_3": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Dust Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Dust Living Room", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_4": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Deep clean Main Bathroom bath", "location": "Main Bathroom", "how_often": "Monthly", "minutes": 12 }
+      ],
+      "Tuesday": [
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Deep Clean Fridge", "location": "Kitchen", "how_often": "Monthly", "minutes": 12 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_5": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Dust Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Dust Living Room", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 4 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_6": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Clean Bedroom Windows", "location": "Bedroom", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Clean Living Room Windows", "location": "Living Room", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_7": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Dust Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Dust Living Room", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 4 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_8": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Tuesday": [
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 },
+        { "name": "Organize clothes wardrobe", "location": "Bedroom", "how_often": "Monthly", "minutes": 12 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_9": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Wipe Bedroom Baseboards", "location": "Bedroom", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Wipe Living Room Baseboards", "location": "Living Room", "how_often": "Monthly", "minutes": 5 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_10": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Tuesday": [
+        { "name": "Deep Clean Fridge", "location": "Kitchen", "how_often": "Monthly", "minutes": 12 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_11": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Tuesday": [
+        { "name": "Dust Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 4 },
+        { "name": "Dust Living Room", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 4 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Living Room / Kitchen", "location": "Living Room / Kitchen / Hallway", "how_often": "Bi-Weekly", "minutes": 10 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean aquarium", "location": "Living Room", "how_often": "Bi-Weekly", "minutes": 12 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Kitchen Appliances", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 10 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    },
+    "week_12": {
+      "Monday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Clean Main Bathroom sink", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Main Bathroom toilet", "location": "Main Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean gerbil home", "location": "Living Room", "how_often": "Every 10 days", "minutes": 15 }
+      ],
+      "Tuesday": [
+        { "name": "Clean Bedroom Windows", "location": "Bedroom", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Clean Living Room Windows", "location": "Living Room", "how_often": "Monthly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 },
+        { "name": "Tidy dog collars", "location": "Hallway", "how_often": "Weekly", "minutes": 3 }
+      ],
+      "Wednesday": [
+        { "name": "Hoover Bedroom", "location": "Bedroom", "how_often": "Bi-Weekly", "minutes": 8 },
+        { "name": "Tidy shoe storage", "location": "Hallway", "how_often": "Every few days", "minutes": 3 }
+      ],
+      "Thursday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Take bins out to curb", "location": "Outside", "how_often": "Weekly (Bin Day)", "minutes": 5 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ],
+      "Friday": [
+        { "name": "Clean Ensuite sink", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Clean Ensuite toilet", "location": "Ensuite Bathroom", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Fill cat food", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 3 }
+      ],
+      "Saturday": [
+        { "name": "Return bins from curb", "location": "Outside", "how_often": "Weekly", "minutes": 5 },
+        { "name": "Mop Kitchen Floor", "location": "Kitchen", "how_often": "Bi-Weekly", "minutes": 6 },
+        { "name": "Mop Bathroom Floors", "location": "Main Bathroom / Ensuite", "how_often": "Bi-Weekly", "minutes": 5 }
+      ],
+      "Sunday": [
+        { "name": "Take trash to bins", "location": "Kitchen", "how_often": "Every 3 days", "minutes": 2 },
+        { "name": "Change bed linens", "location": "Bedroom", "how_often": "Weekly", "minutes": 8 },
+        { "name": "Clean Ensuite shower", "location": "Ensuite Bathroom", "how_often": "Twice weekly", "minutes": 7 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Tasks - Cleaning Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏠 Home Tasks</h1>
+        
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="today">Today's Tasks</button>
+            <button class="tab-button" data-tab="weekly">Weekly View</button>
+            <button class="tab-button" data-tab="history">History</button>
+        </div>
+
+        <!-- Today's Tasks View -->
+        <div id="today-view" class="tab-content active">
+            <div class="date-header">
+                <h2 id="current-date"></h2>
+            </div>
+            
+            <div class="task-section">
+                <h3>📅 Daily Tasks</h3>
+                <div id="daily-tasks-list" class="task-list"></div>
+            </div>
+            
+            <div class="task-section">
+                <h3>🎯 Today's Focus</h3>
+                <div id="weekly-tasks-list" class="task-list"></div>
+            </div>
+        </div>
+
+        <!-- Weekly View -->
+        <div id="weekly-view" class="tab-content">
+            <div class="weekly-grid">
+                <div class="day-column">
+                    <h3>Monday</h3>
+                    <div id="monday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Tuesday</h3>
+                    <div id="tuesday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Wednesday</h3>
+                    <div id="wednesday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Thursday</h3>
+                    <div id="thursday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Friday</h3>
+                    <div id="friday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Saturday</h3>
+                    <div id="saturday-tasks" class="day-tasks"></div>
+                </div>
+                <div class="day-column">
+                    <h3>Sunday</h3>
+                    <div id="sunday-tasks" class="day-tasks"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- History View -->
+        <div id="history-view" class="tab-content">
+            <div class="history-header">
+                <h2>Task History - Last Completed</h2>
+                <p class="history-subtitle">Organized by room</p>
+            </div>
+            <div id="history-by-room" class="history-container"></div>
+        </div>
+    </div>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
