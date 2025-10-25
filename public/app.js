@@ -13,41 +13,118 @@ const CYCLE_LENGTH_WEEKS = 12;
 // Reference date for calculating week in cycle (January 1, 2024 = Week 1)
 const REFERENCE_DATE = new Date('2024-01-01');
 
+// Toast notification system
+function showToast(message, type = 'info') {
+    const toast = document.getElementById('toast');
+    toast.textContent = message;
+    toast.className = `toast ${type}`;
+    
+    // Show toast
+    setTimeout(() => toast.classList.add('show'), 10);
+    
+    // Hide after 3 seconds
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, 3000);
+}
+
+// Update loading screen status
+function updateLoadingStatus(message) {
+    const statusElement = document.querySelector('.loading-status');
+    if (statusElement) {
+        statusElement.textContent = message;
+    }
+}
+
+// Hide loading screen and show app
+function hideLoadingScreen() {
+    const loadingScreen = document.getElementById('loading-screen');
+    const container = document.querySelector('.container');
+    
+    loadingScreen.classList.add('hidden');
+    container.style.display = 'block';
+    
+    // Remove loading screen from DOM after animation
+    setTimeout(() => {
+        loadingScreen.remove();
+    }, 500);
+}
+
 // Initialize Firebase
 async function initializeFirebase() {
     try {
+        updateLoadingStatus('Connecting to Firebase...');
+        
         // Fetch Firebase config from server
         const response = await fetch('/api/config');
         const { firebaseConfig } = await response.json();
+        
+        console.log('🔧 Initializing Firebase with config:', firebaseConfig.projectId);
+        updateLoadingStatus('Initializing database...');
         
         // Initialize Firebase app
         firebaseApp = firebase.initializeApp(firebaseConfig);
         db = firebase.firestore();
         
-        console.log('✅ Firebase initialized successfully');
+        // Enable offline persistence (optional but helpful)
+        try {
+            await db.enablePersistence({ synchronizeTabs: true });
+            console.log('💾 Firebase offline persistence enabled');
+        } catch (err) {
+            if (err.code === 'failed-precondition') {
+                console.warn('⚠️ Multiple tabs open, persistence enabled in first tab only');
+            } else if (err.code === 'unimplemented') {
+                console.warn('⚠️ Browser does not support persistence');
+            }
+        }
+        
+        // Test connection with a simple read
+        console.log('🔍 Testing Firebase connection...');
+        updateLoadingStatus('Testing connection...');
+        await db.collection('taskHistory').doc('shared').get();
+        
+        console.log('✅ Firebase initialized and connected successfully');
         return true;
     } catch (error) {
         console.error('❌ Error initializing Firebase:', error);
+        console.error('Error details:', error.code, error.message);
         console.warn('⚠️ Falling back to localStorage');
+        showToast('Using offline mode', 'info');
         return false;
     }
 }
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', async () => {
+    updateLoadingStatus('Starting up...');
+    
     await initializeFirebase();
+    
+    updateLoadingStatus('Loading schedule...');
     await loadSchedule();
+    
+    updateLoadingStatus('Setting up interface...');
     setupTabs();
     displayCurrentDate();
     renderTodaysTasks();
     renderWeeklyView();
     renderHistoryView();
+    
+    updateLoadingStatus('Loading your tasks...');
+    await loadTaskStates();
+    renderWeeklyView();
+    renderHistoryView();
+    
+    updateLoadingStatus('Loading your tasks...');
     await loadTaskStates();
     
     // Listen for real-time updates from Firebase
     if (db) {
         setupRealtimeListeners();
     }
+    
+    // Hide loading screen and show app
+    hideLoadingScreen();
 });
 
 // Calculate which week of the 12-week cycle we're in
@@ -303,8 +380,10 @@ async function recordTaskCompletion(taskName, taskLocation) {
     if (db) {
         try {
             await db.collection('taskHistory').doc('shared').set(history);
+            // Task saved successfully - could show subtle feedback
         } catch (error) {
             console.error('Error saving history to Firebase:', error);
+            showToast('Failed to sync task. Using offline mode.', 'error');
             localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
         }
     } else {
@@ -714,8 +793,10 @@ async function saveTaskStates() {
     if (db) {
         try {
             await db.collection('taskStates').doc(today).set(data);
+            // Don't show toast for every checkbox, only on errors
         } catch (error) {
             console.error('Error saving task states to Firebase:', error);
+            showToast('Failed to sync. Using offline mode.', 'error');
             localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
         }
     } else {
@@ -731,15 +812,20 @@ function setupRealtimeListeners() {
     if (!db) return;
     
     const today = new Date().toDateString();
+    let isFirstSnapshot = true;
     
     // Listen for changes to today's task states
     db.collection('taskStates').doc(today).onSnapshot((doc) => {
         if (doc.exists) {
             const data = doc.data();
+            let hasUpdates = false;
+            
             // Update checkboxes without triggering save
             Object.keys(data.tasks).forEach(taskId => {
                 const checkbox = document.querySelector(`[data-task-id="${taskId}"]`);
                 if (checkbox && checkbox.checked !== data.tasks[taskId]) {
+                    hasUpdates = true;
+                    
                     // Remove event listener temporarily to avoid triggering save
                     const oldOnChange = checkbox.onchange;
                     checkbox.onchange = null;
@@ -757,9 +843,16 @@ function setupRealtimeListeners() {
                     }
                 }
             });
+            
+            // Show toast only if this is not the first snapshot and there were updates
+            if (!isFirstSnapshot && hasUpdates) {
+                showToast('Tasks synced from partner', 'success');
+            }
+            isFirstSnapshot = false;
         }
     }, (error) => {
         console.error('Error listening to task states:', error);
+        showToast('Sync error. Working offline.', 'error');
     });
     
     // Listen for changes to task history
